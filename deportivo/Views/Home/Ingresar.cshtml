@@ -1,0 +1,11 @@
+ @model RegistrarUsuario   
+    
+    <form method="post" asp-action="Login"> 
+      
+        <label for="">Usuario</label>
+        <input asp-for="Usuario" type="text"/><br/>
+        <label for="">Contraseña</label>
+        <input asp-for="Contra" type="password"/><br/>
+        <input type="submit" value="Registro"/><br/>
+        
+	</form>

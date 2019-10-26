@@ -1,0 +1,78 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar a{
+    color: #1a1a1a;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+#categorias{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.categoria-container{
+    position: relative;
+    margin: 20px 0;
+
+}
+.categoria-details{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+
+.bg-dark{
+    background-color: #1a1a1a !important;
+}
+
+#footer1{
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #337DFF;
+}
+#footer1 a{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#footer1 a:hover{
+    color: #ffffff;
+}
+
+#footer1 .list-inline .list-inline-item{
+    padding: 10px 15px;
+}
+
+#footer2{
+    padding: 15px 0;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+#footer2 a{
+    color:#ffffff;
+}
+
+#pag{
+    margin-right: 50px;
+}
+
+#niños-zap{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.niños-zap-container{
+    position: relative;
+    margin: 20px 0;
+}
+.niños-zap-desc{
+    padding-top: 10px;
+}
+
+
+
+
+

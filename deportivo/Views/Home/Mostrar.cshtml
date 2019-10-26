@@ -1,0 +1,24 @@
+    @model List<RegistrarUsuario>
+
+    <H1>USUARIOS REGISTRADOS</H1>
+
+    @foreach (var p in Model)
+    {
+
+        <table border="2px">
+
+        <tr>
+
+            <td>@p.Id</td>
+
+            <td>@p.Dni</td>
+
+            <td>@p.Nombre</td>
+
+            <td>@p.Correo</td>
+
+        </tr>
+
+        </table>
+
+    }
